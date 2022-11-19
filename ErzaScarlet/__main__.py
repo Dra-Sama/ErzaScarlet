@@ -60,11 +60,11 @@ from ErzaScarlet.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
 Hey there, {}!
-Hey I Am {}
+Hey I Am [Shanks](https://te.legra.ph/file/ece230a3a5655ca7964b0.mp4)
 
 I can manage your group easily with many feautres and games. **Just add me in your group to use me.
 
-*Status*: [Working Fine](https://t.me/ErzaScarlet_Justice)
+*Status*: [Working Fine](https://t.me/ShanksUpdates)
 *Life Force*: `100%`
 
 Too see commands send /help .
@@ -72,7 +72,7 @@ Too see commands send /help .
 
 
 HELP_STRINGS = """
-*Main Commands :* [ʕ·ᴥ·ʔ](https://telegra.ph/file/f14c63556a46189167eb7.jpg)
+*Main Commands :* [ʕ·ᴥ·ʔ](https://te.legra.ph/file/41f39b1437b364976f4a7.mp4)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /settings: 
@@ -80,8 +80,8 @@ HELP_STRINGS = """
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
 """
 
-ErzaScarlet_IMG = "https://indianime.com/wp-content/uploads/2021/08/photo_2021-08-21_12-17-22.jpg)"
-ErzaScarlet_YAWN = "https://telegra.ph/file/baad9f6111310638c438c.mp4" #"https://telegra.ph/file/df5c1103ab9d539ab760d.gif"
+ErzaScarlet_IMG = "https://te.legra.ph/file/c12a91578bbb606c9b5a3.jpg)"
+ErzaScarlet_YAWN = "https://te.legra.ph/file/a7b83d986528ea40b8198.mp4" 
 YAWN_CPT = "I am Awake ! ~ 💤"
 
 IMPORTED = {}
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Erza In Your Group",
+                                text="➕ Add Shanks In Your Group ➕",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -214,18 +214,18 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                text="🚑 Support Group",
+                                url=f"https://t.me/ShanksSupport",
                             ),
                             InlineKeyboardButton(
-                                text="Anime Group",
+                                text="💬 Anime Fandom Chat",
                                 url="https://t.me/indianimein",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="Anime Channel",
-                                url="https://t.me/indianimei",
+                                url="hhttps://t.me/Anime_Organization",
                             ),
                             InlineKeyboardButton(
                                 text="Anime Index",
